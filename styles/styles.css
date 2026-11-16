@@ -1,0 +1,117 @@
+/* Estilos simples para la página principal index.php y sus pantallas asociadas */
+
+/* Estilo para el body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    color: #000000;
+    margin: 20px 40px;
+}
+
+h1 {
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #475569;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+/* Estilo para la tabla */
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#tabla th,
+#tabla td {
+    padding: 12px 14px;
+    /* Centrar el contenido de cada celda y encabezado */
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Cabecera de la tabla */
+#tabla thead th {
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+/* Filas alternas y efecto hover */
+#tabla tbody tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+#tabla tbody tr:hover {
+    background-color: #e2e8f0;
+}
+
+/* Estilo para botones y controles */
+button {
+    font-family: inherit;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 2px 3px;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Botones principales y de envío */
+a button,
+button[type="submit"] {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+a button:hover,
+button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+/* Botón Editar: Verde suave con tono más claro para el hover */
+button.editar,
+a button.editar {
+    background-color: #16a34a;
+    color: #ffffff;
+}
+
+button.editar:hover,
+a button.editar:hover {
+    background-color: #22c55e;
+}
+
+/* Botón Eliminar: Rojo suave con tono más claro para el hover */
+button.eliminar,
+a button.eliminar {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+button.eliminar:hover,
+a button.eliminar:hover {
+    background-color: #ef4444;
+}
+
+/* Desplegables select */
+select {
+    padding: 6px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-family: inherit;
+    background-color: #ffffff;
+}
